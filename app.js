@@ -28,7 +28,6 @@ app.use(bodyParser.urlencoded({
 }))
 
 app.use(session({
-  store,
   name: SESS_NAME,
   resave: false,
   saveUninitialized: false,
